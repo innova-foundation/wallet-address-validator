@@ -18,7 +18,7 @@
             return hex;
         },
         sha256: function (hexString) {
-            var sha = new jsSHA('SHA-256', hexString);
+            var sha = new jsSHA('SHA-256', hexString, 'HEX');
             return sha.getHash('HEX');
         }
     };
