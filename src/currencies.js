@@ -12,8 +12,7 @@
             name: 'innova',
             symbol: 'inn',
             addressTypes: {prod: ['66', '89'], testnet: ['41', '4B']}
-        },
-        {
+        },{
             name: 'peercoin',
             symbol: 'ppc',
             addressTypes: {prod: ['37', '75'], testnet: ['6f', 'c4']}
